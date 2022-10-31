@@ -1,0 +1,95 @@
+.App {
+  padding: 40px;
+}
+@media (max-width: 480px) {
+  .App {
+    padding: 20px;
+  }
+  .filter-container {
+    padding: 5px;
+  }
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1%;
+}
+
+/** css for search input*/
+
+.search-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(179 179 179);
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 5px;
+}
+
+.filter-container .search-input input {
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+}
+
+.search-input input:focus {
+  outline: none;
+}
+
+.search-input img {
+  width: 20px;
+  height: 20px;
+}
+
+.search-input span {
+  padding-top: 5px;
+}
+
+/** css for select box sort input*/
+.select-sort {
+  width: 250px;
+  margin: 10px 0px;
+}
+
+/** css for pagination*/
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1%;
+  align-items: center;
+}
+
+.pagination-status {
+  margin: 0px 10px;
+  padding: 10px;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  font-size: 17px;
+  border-radius: 5px;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.PostData {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.resultStatus {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+}

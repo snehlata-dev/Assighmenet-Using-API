@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+.pagination li:first-child {
+  border-radius: 5px 0px 0px 5px;
+}
+.pagination li:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+
+li.page-item.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+li.page-item.active {
+  padding: 6px 12px;
+  color: white;
+  background: blue;
+}
+li.page-item {
+  padding: 6px 12px;
+  color: black;
+  background: white;
+  border: 1px solid #d3c8c8;
+  cursor: pointer;
+}
